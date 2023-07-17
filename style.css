@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Roboto, Arial;
+    background-color: #202124;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding: 0 18px;
+}
+
+header .options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+header .options a{
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+header .options a img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+
+}
+
+header .logo-puntos {
+    display: inline-block;
+    background-image: url(iconos-logos/logo-puntos.svg);
+    height: 28px;
+    width: 28px;
+
+}
+
+main {
+    height: calc(100% - 60px - 65px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+main .container p{
+    font-size: medium;
+    color: aliceblue;
+
+}
+
+main .container .buscador{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid aliceblue;
+    border-radius: 25px;
+    padding: 10px 18px;
+    height: 50px;
+    width: 475px;
+
+}
+
+main .container .buscador button{
+background-color: transparent;
+border: none;
+
+}
+
+main .container .buscador input{
+    width: 100%;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
+
+main .container .botones-buscador{
+    display: flex;
+    gap: 10px;
+}
+
+main .container .botones-buscador button{
+    border: none;
+    border-radius: 6px;
+    background-color: #303134;
+    padding: 15px;
+    color: aliceblue;
+
+}
+
+main .lupita {
+    display: inline-block;
+    color: #9aa0a6;
+    background-image: url(iconos-logos/lupita.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 28px;
+    height: 27px;
+}
+
+main .microfono {
+    display: inline-block;
+    background-image: url(iconos-logos/microfono.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 28px;
+    height: 27px;
+}
+
+main .camara {
+    display: inline-block;
+    background-image: url(iconos-logos/camara.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 28px;
+    height: 27px;
+    background-size: cover;
+}
+
+
+main .logo-google {
+    display: inline-block;
+    background-image: url(iconos-logos/google_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 90px;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    height: 65px;
+    padding: 0px 30px;
+}
+
+footer section {
+    color: #999da2;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    height: 40%;
+
+}
+
+footer section.footer-menu{
+    border-top: #444547 solid 1px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+footer section.footer-menu div{
+    display: flex;
+    gap: 18px;
+}
+
+footer section.footer-menu div a{
+    text-decoration: none;
+    color: #999da2;
+
+}
